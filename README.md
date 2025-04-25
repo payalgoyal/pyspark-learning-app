@@ -43,16 +43,42 @@ Examples:
 
 ```bash
 pyspark-learning-app/
-├── app.py
+├── client
+      ├── src
+        ├── api/
+          ├── api.js
+      ├── components
+        ├── hintBox.jsx
+        ├── LevelPage.jsx
+        ├── solutionBox.jsx
+      ├── pages
+        ├── Home.css
+        ├── Home.jsx
+      ├── App.css
+      ├── App.jsx
+      ├── index.css
+      ├── main.jsx
+
+├── server
+      ├── data/
+        ├── level_1_data.csv
+        ├── level_2_data.csv
+        ├── level_3_data.csv
+      ├── expected_results/
+        ├── level1_expected.csv
+        ├── level2_expected.csv
+        ├── level3_expected.csv
+      ├── level/
+        ├── concepts.json
+        ├── levels.json
+      ├── utils/
+        ├── data_loader.py
+        ├── response.py
+      ├── validators/
+        ├── validators.py
+      ├── app.py
 ├── requirements.txt
 ├── README.md
-├── data/
-│   ├── users.csv
-│   └── concepts.json
-├── static/
-│   └── style.css
-├── templates/
-│   └── index.html
 └── .gitignore
 
 ```
