@@ -1,0 +1,42 @@
+[
+    {
+        "position" : 1,
+        "topic": "RDD (Resilient Distributed Dataset)",
+        "concept": ["Fundamental data structure in PySpark.","Immutable, distributed collection of objects.","Supports fault tolerance and parallel processing.","Actions (e.g., collect(), count()) and transformations (e.g., map(), filter())."]
+    },
+    {
+        "position" : 2,
+        "topic": "DataFrame",
+        "concept": ["Distributed collection of data organized into named columns (like a SQL table).","Built on top of RDDs.","Easier and optimized for performance.","Supports SQL-like operations and built-in functions."]
+    },
+    {
+        "position" : 3,
+        "topic": "SparkSession",
+        "concept": ["Entry point to programming with DataFrames in PySpark.","Use SparkSession.builder.appName(\"AppName\").getOrCreate() to initialize."]
+    },
+    {
+        "position" : 4,
+        "topic": "Transformations vs Actions",
+        "concept": ["Transformations: Lazy operations that return a new RDD/DataFrame (e.g., filter(), map(), select()).","Actions: Trigger execution and return result (e.g., collect(), count(), show())."]
+    },
+    {
+        "position" : 5,
+        "topic": "Lazy Evaluation",
+        "concept": ["Transformations are not executed until an action is called.","Helps optimize execution using DAG (Directed Acyclic Graph)."]
+    },
+    {
+        "position" : 6,
+        "topic": "Schema Inference",
+        "concept": ["PySpark can infer schema from data or allow manual definition.","Improves performance and allows type-safe operations."]
+    },
+    {
+        "position" : 7,
+        "topic": "Joins and Aggregations",
+        "concept": ["Supports inner, outer, left, right joins.","Grouping with groupBy(), aggregation using agg() or functions like sum(), avg()."]
+    },
+    {
+        "position" : 8,
+        "topic": "Handling Missing Data",
+        "concept": ["Use dropna() to remove nulls.","Use fillna() to replace nulls with default values."]
+    }
+]

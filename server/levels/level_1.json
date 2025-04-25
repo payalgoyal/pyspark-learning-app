@@ -1,0 +1,8 @@
+{
+  "level_id": 1,
+  "mission": "Use PySpark to filter out all rows where age is less than 25.",
+  "dataset": "data/level_1_data.csv",
+  "expected_result": "expected_results/level1_expected.csv",
+  "hint": "Use the filter() function and compare the age column with 25.",
+  "solution": "result = df.filter(df[\"age\"]>=25)"
+}
