@@ -32,7 +32,7 @@ Examples:
 
 - **Backend:** Flask
 - **Data Handling:** PySpark, CSV, JSON
-- **Frontend:** HTML/CSS (or React if used)
+- **Frontend:** React,HTML,CSS
 - **Data Storage:** 
   - CSV for datasets  
   - JSON for concept explanations and question bank
