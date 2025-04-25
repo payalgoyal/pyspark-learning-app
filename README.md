@@ -58,3 +58,27 @@ pyspark-learning-app/
 ```
 
 ## Installations
+1. Clone the repository
+    git clone https://github.com/payalgoyal/pyspark-learning-app.git
+    cd pyspark-learning-app
+
+2. Create virtual environment (optional but recommended)
+    python -m venv myenv
+    source myenv/bin/activate  # on Linux/macOS
+    myenv\Scripts\activate     # on Windows
+
+3. Install dependencies
+   pip install -r requirements.txt
+
+4. Run the Flask app
+   python ./server/app.py
+
+5. Run client code
+   Naviagte to client folder cd client
+   npm run dev
+
+📃 License
+This project is open-source and free to use under the MIT License.
+
+💡 Author
+Made with ❤️ by Payal Goyal
